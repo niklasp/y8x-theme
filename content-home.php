@@ -13,24 +13,30 @@
 	
 	<div class="entry-content">
 		<div class="row">
+			<div class="col-md-6">
+			<h2><span>Demokratische Produktion</span></h2>
+			<p class="f20">y8x soll ein Unternehmen werden, das eine Platform mit Open Source Baupläne für Maschinen und Objekte 
+				zur Verfügung stellt.</p> 
+				<p class="f20">Nutzer_innen können Baupläne hochladen, runterladen, online bewerten und verbessern, 
+				sowie entsprechende Bausätze bestellen. Die Einnahmen werden durch den Verkauf von Bausätzen, 
+				die alle benötigten Bauteile für einen Bauplan enthalten generiert. 
+			</div>
 			<div class="col-md-6 text-center">
 				<img class="logo" alt="y8x logo" src="<?php echo get_template_directory_uri() . '/img/y8x_white.png' ?>">            
 			</div>
-			<div class="col-md-6">
-			<h2><span>Demokratische Produktion</span></h2>
-			<p class="f20">y8x soll ein neues gemeinnütziges Unternehmen werden, das zur Demokratisierung der Produktion beträgt - dafür brauchen wir <a href="#">eure Unterstützung</a>. Informiert euch hier über unsere Ideen und Konzepte und helft uns einen Beitrag zu fairerer Produktion zu leisten.</p>
-			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-6 col-md-push-6">
-				<img src="http://placehold.it/640x380&text=crowdfunding+video" class="full-width">
-			</div>			
-			<div class="col-md-6 col-md-pull-6">
-					<h2>Wir brauchen eure Hilfe</h2>
-					<p>Um weiter an unserer Idee arbeiten zu können brauchen wir eure finanzielle Unterstützung. Beteiligt euch an den Startkosten und helft dabei die Produktion zu demokratisieren und dadurch Oligopole zu brechen.<br> Oder spendet uns eure Baupläne <br> <span class="highlight">Wissen und Produktionsmittel für alle!</span></p>
-				    <a href="#" class="btn btn-default full-width"><span class="glyphicon glyphicon-heart"></span> Unterstützen und Mitmachen</a>				
-			</div>
-		</div>		
+			<div class="col-md-12">
+				<p class="f20">Als Betreiber der Platform 
+				testen und bewerten wir Baupläne und stellen Bausätze für diese zusammen. Außerdem begeben wir 
+				uns selbst auf die Suche nach geeigneten Bauplänen. Unser Fokus liegt dabei auf ökologischen Produkten, 
+				die aus nachhaltigen Materialien bestehen, reparierbar und innovativ sind.</p>
+				<p class="f20">Ziel von y8x ist es - analog 
+				zur Open Source Software - Wissen über quelloffene Baupläne zugänglicher zu machen, zu verbreiten und 
+				durch die Nutzung vieler Menschen die daran mitarbeiten zu verbessern. Darüber hinaus wird die Hemmschwelle 
+				gesenkt Produkte eigenständig zu fertigen und somit ein Beitrag zu einer demokratischen Produktion geleistet und das Technikveständnis vertieft.</p>
+			</div>	
+		</div>	
 		<hr>
 		<div class="row panels">
 			<div class="col-md-4 text-center hidden-xs hidden-sm">
