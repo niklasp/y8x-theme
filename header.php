@@ -34,10 +34,10 @@
             <a class="navbar-brand" href="<?php echo site_url(); ?>"><?php bloginfo( 'name' ); ?></a>
           </div>
           <div class="collapse navbar-collapse">
-          <?php wp_nav_menu( array( 'container' => 'false', 'theme_location' => 'primary', 'menu_class' => 'nav navbar-nav' ) ); ?>
+          <?php wp_nav_menu( array( 'container' => 'false', 'theme_location' => 'primary', 'menu_class' => 'nav navbar-nav navbar-right' ) ); ?>
           </div><!--/.nav-collapse -->
         </div>
       </nav>
 
       <!-- Begin page content -->
-      <div class="container">
+      <div class="container content">

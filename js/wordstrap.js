@@ -1,37 +1,20 @@
 jQuery(document).ready(function() {
-
+    jQuery('.panel').mouseenter(function() {
+        classie.add(this, 'shadow');
+    });
+    jQuery('.panel').mouseleave(function() {
+        classie.remove(this, 'shadow');
+    });
+    jQuery('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = jQuery(this.hash);
+      target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        jQuery('html,body').animate({
+          scrollTop: target.offset().top - 100
+        }, 600);
+        return false;
+      }
+    }
+  });
 });
-
-	var cbpAnimatedHeader = (function() {
-    var docElem = document.documentElement,
-        header = document.querySelector( '.navbar-fixed-top' ),
-        didScroll = false,
-        changeHeaderOn = 200;
- 
-    function init() {
-        window.addEventListener( 'scroll', function( event ) {
-            if( !didScroll ) {
-                didScroll = true;
-                setTimeout( scrollPage, 200 );
-            }
-        }, false );
-    }
- 
-    function scrollPage() {
-        var sy = scrollY();
-        if ( sy >= changeHeaderOn ) {
-            classie.add( header, 'navbar-hidden' );
-        }
-        else {
-            classie.remove( header, 'navbar-hidden' );
-        }
-        didScroll = false;
-    }
- 
-    function scrollY() {
-        return window.pageYOffset || docElem.scrollTop;
-    }
- 
-    init();
- 
-	})();

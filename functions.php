@@ -187,6 +187,12 @@ add_filter ('wp_nav_menu','current_to_active');
  * Implement the Custom Header feature.
  */
 //require get_template_directory() . '/inc/custom-header.php';
+//
+
+/**
+ * Mail functionality
+ */
+require get_template_directory() . '/inc/securemail.php';
 
 /**
  * Custom template tags for this theme.

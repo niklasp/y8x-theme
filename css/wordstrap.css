@@ -1,5 +1,6 @@
 /* Sticky footer styles
 -------------------------------------------------- */
+  @import url(https://fonts.googleapis.com/css?family=Lato);
 
 html,
 body {
@@ -7,24 +8,102 @@ body {
   /* The html and body elements cannot have any padding or margin. */
 }
 
+body, h1,h2,h3,h4,h5,h6 {
+  font-family: Lato;
+}
+body {
+  font-size: 17px;
+  color: #ffffff;
+  background: #333;
+  background: url('../img/background2.png');
+}
+
 body.admin-bar #wrap .navbar-fixed-top {
 	top: 28px;
 }
+a {
+  color: #aba;
+}
+a:active, a:hover {
+  color: #2ae;
+}
+h2 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+h3 {
+  margin-top: 0px;
+}
+hr {
+  border-width: 2px;
+  border-style: dashed none none;
+  border-color: rgb(170, 170, 102);
+  margin-bottom: 30px;
+}
+.container.content {
+  text-shadow: 1px 1px #000;
+}
+.container.content a {
+  border-bottom: 1px solid dashed;
+}
+.navbar .container, .collapse {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;      
+}
 .navbar-fixed-top {
-  height: 0;
     /* Set our transitions up. */
   -webkit-transition: opacity 0.8s;
   -moz-transition: opacity 0.8s;
   transition: opacity 0.8s;
+  background: #aba;
+  border-bottom: 3px solid #787;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;  
+  height: 50px;
+}
+.navbar-fixed-top .glyphicon {
+  font-size: 14px;
+}
+.navbar-shrink {
+  height: 55px !important;
+}
+.navbar-shrink .logo {
+  padding: 5px 0;
 }
 .navbar-hidden {
   opacity: 0;
+}
+.navbar-default .navbar-nav > .active  {
+  border-color: #787;
+  border-style: solid;
+  border-right-width: 3px;
+  border-left-width: 3px;
+  border-bottom-width: 0;
+  border-top-width: 0;
+  background: #333;
+}
+.navbar-default .navbar-nav > .active a {
+  background: #333;
+}
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background: #333;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a, footer a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #2ae;
 }
 
 code {
     white-space: normal;
     word-break: normal;
     word-wrap: normal;
+}
+label {
+  font-weight: normal;
 }
 
 /* Wrapper for page content to push down footer */
@@ -40,8 +119,9 @@ code {
 
 /* Set the fixed height of the footer here */
 #footer {
-  background-color: #f5f5f5;
-  height: 60px;
+  background-color: #aba;
+  border-top: 3px solid #787;
+  height: 74px;
 }
 #footer p {
   margin: 20px 10px;
@@ -57,12 +137,107 @@ aside[role=sidebar] {
 .container .credit {
   margin: 20px 0;
 }
+div.logo {
+  text-align: center;
+}
+@media (max-width:767px) {
+  .logo {
+    width: 100%;
+  }
+}
+.logo {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  height: auto;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;    
+  width: 100%; 
+}
 
 code {
   font-size: 80%;
 }
-
+.jumbotron {
+  background: rgba(70,70,70,0.8);
+}
 .icon-lg {
   font-size: 18px;
   line-height: 1.33;
+}
+.panels {
+  margin-top: 20px;
+}
+.panel {
+  background: #333;
+  border: 2px solid #aba;
+  border-radius: 0;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -kthtml-transition: all 0.3s linear;
+  transition: all 0.3s linear;    
+}
+.panel p {
+  font-size: 17px;
+  text-align: justify;
+}
+.panel h3 {
+  margin-top: 5px;
+}
+.panel.shadow {
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -kthtml-transition: all 0.1s linear;
+  transition: all 0.1s linear;  
+}
+.panel.right {
+  box-shadow: 1px 1px #787, 2px 2px #787, 3px 3px #787;
+}
+.panel.center{
+  box-shadow: 0px 1px #787, 0px 2px #787, 0px 3px #787;
+}
+.panel.left {
+  box-shadow: -1px 1px #787, -2px 2px #787, -3px 3px #787;
+}
+.panel.shadow {
+  box-shadow: 1px 1px #787, 2px 2px #787, 3px 3px #787, 4px 4px #787, 5px 5px #787;
+}
+.form-control {
+  border-radius: 0;
+  box-shadow: 1px 1px #ddd, 2px 2px #ddd;
+}
+.btn {
+  border-radius: 0;
+  line-height: 30px;
+  font-size: 16px;
+}
+.btn-success {
+  background-color: #aba;
+  border: none;
+  box-shadow: 1px 1px #787, 2px 2px #787, 3px 3px #787;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+  background-color: #9a9;
+  border: none;
+}
+.btn-default { 
+  color: #fff;
+  background-color: #abc;
+  border: none;
+  box-shadow: 1px 1px #789, 2px 2px #789, 3px 3px #789;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+  background-color: #9ab;
+  border: none;
+  color: #fff;
+}
+.full-width {
+  width: 100%;
+}
+.f20 {
+  font-size: 20px;
 }

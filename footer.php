@@ -15,7 +15,9 @@
     <div class="container">
 		<div class="row">
 		      <?php dynamic_sidebar('sidebar-footer'); ?>
-			  <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
+			  <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.de">
+			  	<img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" />
+			  </a>&nbsp;&nbsp;y8x.cc<a class="pull-right" href="impressum/">Impressum</a></p>
 		</div>
     </div>
 	</footer>

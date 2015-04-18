@@ -16,13 +16,8 @@ get_header(); ?>
 		<div class="col-xs-12 col-md-8">
 		<main id="main" class="site-main" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
-				
-				<?php if (is_home() ) {
-					get_template_part('content','home' );
-				} else {
-					get_template_part('content', 'page' );
-				}
-				?>
+
+				<?php get_template_part( 'content', 'home' ); ?>
 
 				<?php
 					// If comments are open or we have at least one comment, load up the comment template
