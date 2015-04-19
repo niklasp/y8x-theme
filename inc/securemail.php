@@ -5,6 +5,9 @@ add_action(
     array ( Wordstrap_Contact::get_instance(), 'init' )
 );
 
+add_action( 'wp_ajax_siteWideMessage', 'wpse_sendmail' );
+add_action( 'wp_ajax_nopriv_siteWideMessage', 'wpse_sendmail' );
+
 class Wordstrap_Contact
 {
 	protected static $instance = NULL;
@@ -82,7 +85,7 @@ class Wordstrap_Contact
 			$headers  = "From: ".$form_data['name']." <".$form_data['email'].">\n";
 			$headers .= "Content-Type: text/plain; charset=UTF-8\n";
 			$headers .= "Content-Transfer-Encoding: 8bit\n";
-			mail($email, $email_subject, $email_message,$headers) or die('Error sending Mail'); //This method sends the mail.
+			wp_mail($email, $email_subject, $email_message,$headers) or die('Error sending Mail'); //This method sends the mail.
 			$sent = true;
 		}
 		wp_send_json_success();
