@@ -56,9 +56,15 @@
 			<div class="col-md-8">
 				<div class="panel panel-default right">
 				  <div class="panel-body">
-				    <h3>Maschinenschnitt</h3>
-				    <p>Die neuen Computergesteuerten Produktionsverfahren (CNC Laser- Brenn- und Plasmaschneiden, CNC Drehen und Fräsen, 3D Druck, ...) erlauben eine Individualisierung von automatischer Produktion, eine günstige industrielle Fertigung von Einzelteilen und somit eine Demokratisierung der Produktion. Eine höhere Automatisierung bietet die Chance für eine höhere Lebensqualität ohne monotone Arbeit.</p>
-				    <a href="#Maschinenschnitt" class="btn btn-default full-width">Mehr zum Maschinenschnitt</a>
+				    <h3>Produkte</h3>
+				    <p>Wir planen zu begin mit 3 Produkten an den Start zu gehen:</p>
+				    <ul>
+				    	<li>Ein spitzen <b>Lastenrad</b></li>
+				    	<li>Ein vielseitiges <b>Gewächshaus</b></li>
+				    	<li>Ein warmer <b>Außenofen</b></li>
+				    </ul>
+				    <p>In der folgenden Zeit weitere Produktideen zu sammeln und es euch zu ermöglichen eigene Ideen hochzuladen und an vorhandenen mitzuwirken. </p>
+				    <a href="#Produkte" class="btn btn-default full-width">Mehr zu unseren Produkten.</a>
 				  </div>
 				</div>				
 			</div>
@@ -100,27 +106,52 @@
 			</ul>
 		</div>
 		<hr>
-		<h3 id="Maschinenschnitt">Maschinenschnitt</h3>
-		<p>
-		Die neuen Computergesteuerten Produktionsverfahren (CNC Laser- Brenn- und Plasmaschneiden, CNC Drehen und Fräsen, 3D Druck, ...) erlauben eine Individualisierung von automatischer Produktion, 
-		eine günstige industrielle Fertigung von Einzelteilen und somit eine Demokratisierung der Produktion. Eine höhere Automatisierung bietet die Chance für eine höhere Lebensqualität ohne monotone Arbeit.</p>
-		<p>Beim D-Druck erreicht die Objekte noch keine befriedigende Qualität zu einem akzeptablen Preis und auch die 
-			Materialwahl ist sehr eingeschränkt. Daher werden alle unsere Objekte aus Lasergeschnitten Teilen zusammengebaut. 
-			So können durch eine einfache standardisierte und günstige Produktionsweise nahezu alle Produkte hergestellt werden.
-			Nur möglichst wenige standardisierte zusätzliche Teile sollen benötigt werden (z.B. Schrauben, Arduino, Motoren).
-			Die Laserteile können direkt bei uns online bestellt werden - dadurch finanzieren wir uns (Produktion bei Partnern die direkt liefern)</p>
-		<p>Möglichkeiten für die Fertigung gibt es schon heute viele</p>
-		<ul>
-			<li>Werkzeuge</li>
-			<li>Schaltkreise</li>
-			<li>Möbel</li>
-			<li>Treppen</li>
-			<li>Kunst</li>
-			<li>Musikinstrumente</li>
-			<li>Roboter</li>
-			<li>Landmaschinen</li>
-			<li>eure Ideen</li>
-		</ul>
+		<h3 id="Produkte">Produkte (beta)</h3>
+		<div class="row mt-lg">
+			<div class="col-md-4">
+				<img src="http://www.radfahrlust.de/images/lastenrad.jpg" class="auto">
+			</div>
+			<div class="col-md-8">
+				<h3>Lastenrad</h3>
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
+					aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+					Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+					invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et 
+					accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
+					sanctus est Lorem ipsum dolor sit amet.</p>
+			</div>
+		</div>
+		<div class="row mt-lg">
+			<div class="col-md-4">
+				<img src="http://www.duden.de/_media_/full/I/Ikosaeder-201020349442.jpg" class="auto">
+			</div>
+			<div class="col-md-8">
+				<h3>Gewächshaus</h3>
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
+					aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+					Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+					invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et 
+					accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
+					sanctus est Lorem ipsum dolor sit amet.</p>
+			</div>
+		</div>
+		<div class="row mt-lg">
+			<div class="col-md-4">
+				<img src="https://a248.e.akamai.net/f/248/9086/10h/manufactum.scene7.com/is/image/Manufactum/25991_01" class="auto">
+			</div>
+			<div class="col-md-8">
+				<h3>Ofen</h3>
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
+					aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+					Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+					invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et 
+					accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
+					sanctus est Lorem ipsum dolor sit amet.</p>
+			</div>
+		</div>				
 		<hr>
 		<h3 id="Commons">Commons</h3>
 		<p>Gleichzeitig zur Möglichkeit der Fertigung von eigenen Plänen, wollen wir ein Archiv an frei zugänglichen Schnittmustern aufbauen, 
