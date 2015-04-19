@@ -21,7 +21,7 @@
 				sowie entsprechende Bausätze bestellen. Die Einnahmen werden durch den Verkauf von Bausätzen, 
 				die alle benötigten Bauteile für einen Bauplan enthalten generiert. 
 			</div>
-			<div class="col-md-6 text-center">
+			<div class="col-md-6 text-center mt-lg">
 				<img class="logo" alt="y8x logo" src="<?php echo get_template_directory_uri() . '/img/y8x_white.png' ?>">            
 			</div>
 		</div>
@@ -131,20 +131,15 @@
 		<p>So können wir gemeinsam eine große Sammlung an Bauplänen erstellen</p>
 		<hr>
 		<div class="jumbotron">
-			<div class="row">
-				<div class="col-md-6">
-				  <h1>Gefällt dir die Idee?</h1>
-				  <h2>Hilf sie uns umzusetzen</h2>
-				  <p><a class="btn btn-default btn-lg" role="button">Unterstütze uns</a></p>
-				</div>
-				<div class="col-md-6">
+			
+				
+				<div class="col-md-12">
 				  <h1>Noch Fragen zu y8x?</h1>
 				  <h2>Kontaktiere uns</h2>
 				  <p><a class="btn btn-default btn-lg" role="button" href="kontakt/">Kontakt</a></p>
-				</div>
+			
 		</div>
 
-		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'wordstrap' ),

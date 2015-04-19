@@ -40,6 +40,9 @@ hr {
   border-color: rgb(170, 170, 102);
   margin-bottom: 30px;
 }
+.mt-lg {
+  margin-top: 20px;
+}
 .container.content {
   text-shadow: 1px 1px #000;
 }
