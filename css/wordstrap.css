@@ -43,6 +43,9 @@ hr {
 .mt-lg {
   margin-top: 20px;
 }
+.mb-lg {
+  margin-bottom: 20px;
+}
 img.auto {
   width: 100%;
   height: auto;
@@ -52,6 +55,9 @@ img.auto {
 }
 .container.content a {
   border-bottom: 1px solid dashed;
+}
+.container .jumbotron {
+  border-radius: 0;
 }
 .navbar .container, .collapse {
   -webkit-transition: all 0.3s;
